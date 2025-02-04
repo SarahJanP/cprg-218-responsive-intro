@@ -1,4 +1,27 @@
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
+body{
+	background-color:blue;
+	color:white;
+}
+
+@media screen and (max-width:500px){
+	/*Any screen resolution from
+	401-500px wide*/
+	body{
+		background-color:red;
+		font-size:130%;
+	}
+}
+@media screen and (max-width:400px){
+	/*Any screen resolution from
+	0-400px wide*/
+	body{
+		background-color:yellow;
+		color:black;
+	}
+}
+
+
 
